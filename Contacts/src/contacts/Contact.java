@@ -23,6 +23,16 @@ public class Contact {
     }
     
     public String toString(){
-        return firstName + " " + lastName  " " + phoneNumber + " " + emailAddress;
+        return firstName + " " + lastName + " " + phoneNumber + " " + emailAddress;
+    }
+
+    String getFirstName() {
+        return firstName;
+   //     throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    String getLastName() {
+        return lastName;
+      //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
